@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">Theme Practice</string>
+    <string name="app_name">Book An Appointment</string>
+    <string name="bold">bold</string>
+
 </resources>
