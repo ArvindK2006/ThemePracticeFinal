@@ -19,13 +19,6 @@
     </style>
 
     <style name="ColorTextStyle" parent="android:style/Widget.EditText">
-        <!--
-        <item name="android:background">@color/colorBackground</item>
-        <item name="android:textColor">@color/colorPrimaryBlue</item>
-        <item name="android:padding">@dimen/editTextPadding</item>
-        <item name="android:layout_width">@dimen/editTextWidth</item>
-        <item name="android:layout_height">@dimen/editTextHeight</item>
-        -->
         <item name="android:background">@color/colorBackground</item>
         <item name="android:textColor">@color/secondaryDarkColor</item>
         <item name="android:textSize">@dimen/fontSize</item>
@@ -34,13 +27,6 @@
     </style>
 
     <style name="IntroTextStyle" parent="android:style/Widget.EditText">
-        <!--
-        <item name="android:background">@color/colorBackground</item>
-        <item name="android:textColor">@color/colorPrimaryBlue</item>
-        <item name="android:padding">@dimen/editTextPadding</item>
-        <item name="android:layout_width">@dimen/editTextWidth</item>
-        <item name="android:layout_height">@dimen/editTextHeight</item>
-        -->
         <item name="android:background">@color/colorBackground</item>
         <item name="android:textColor">@color/secondaryDarkColor</item>
         <item name="android:textSize">@dimen/fontSizeIntro</item>

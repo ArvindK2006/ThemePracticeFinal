@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">Book An Appointment</string>
-    <string name="bold">bold</string>
-
+    <string name="intro">Use this app to book your appointment</string>
+    <string name="name_entry">Your Name</string>
+    <string name="description">Appointment Description</string>
+    <string name="confirm">confirm</string>
 </resources>

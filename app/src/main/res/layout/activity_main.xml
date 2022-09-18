@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/background"
     tools:context=".MainActivity">
 
 
@@ -17,29 +18,30 @@
         android:layout_marginTop="@dimen/elementMargin"
         >
 
+
         <TextView
             android:id="@+id/introText"
-            android:layout_width="wrap_content"
-            android:layout_height="38dp"
-            android:text="Use this app to book your appointment"
-            android:background="@color/colorBackground"
+            style="@style/IntroTextStyle"
+            android:layout_width="@dimen/elementWidth"
+            android:layout_height="@dimen/textViewHeight"
+            android:background="@color/background"
+            android:text="@string/intro"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.496"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            style="@style/IntroTextStyle"
             app:layout_constraintVertical_bias="0.028" />
-
 
         <EditText
             android:id="@+id/nameEditText"
             style="@style/ColorTextStyle"
-            android:layout_width="@dimen/editTextWidth"
+            android:layout_width="@dimen/elementWidth"
             android:layout_height="@dimen/nameHeight"
             android:layout_marginTop="@dimen/elementMargin"
+            android:background="@color/secondaryLightColor"
             android:ems="10"
-            android:hint="Your Name"
+            android:hint="@string/name_entry"
             android:inputType="textPersonName"
             android:paddingLeft="@dimen/centerPadding"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -52,11 +54,12 @@
         <EditText
             android:id="@+id/descriptionEditText"
             style="@style/ColorTextStyle"
-            android:layout_width="@dimen/editTextWidth"
+            android:layout_width="@dimen/elementWidth"
             android:layout_height="@dimen/descriptionHeight"
             android:layout_marginTop="@dimen/elementMargin"
+            android:background="@color/secondaryLightColor"
             android:ems="10"
-            android:hint="Appointment Description"
+            android:hint="@string/description"
             android:inputType="textPersonName"
             android:paddingLeft="@dimen/centerPadding"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -68,14 +71,14 @@
 
         <CalendarView
             android:id="@+id/calendarView"
-            android:layout_width="@dimen/calendarDimens"
-            android:layout_height="@dimen/calendarDimens"
+            android:layout_width="@dimen/elementWidth"
+            android:layout_height="@dimen/calendarHeight"
+            android:layout_marginTop="@dimen/elementMargin"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.495"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            android:layout_marginTop="@dimen/elementMargin"
             app:layout_constraintVertical_bias="0.6" />
 
         <Button
@@ -83,7 +86,7 @@
             android:layout_width="@dimen/buttonWidth"
             android:layout_height="@dimen/buttonHeight"
             android:background="@drawable/border"
-            android:text="confirm"
+            android:text="@string/confirm"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.498"

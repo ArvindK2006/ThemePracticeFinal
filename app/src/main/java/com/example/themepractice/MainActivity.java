@@ -25,8 +25,8 @@ public class MainActivity extends AppCompatActivity {
                 Context context = getApplicationContext();
                 CharSequence text = "Your appointment has been scheduled. Thank you!";
                 int duration = Toast.LENGTH_SHORT;
-
                 Toast toast = Toast.makeText(context, text, duration);
+
                 toast.show();
             }
         });
